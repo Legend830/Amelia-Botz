@@ -1,0 +1,41 @@
+{
+"name": "Toxic-Alexa_V2",
+  "description": "Toxic-Alexa_V2 whatsapp bot by Turbo and Jifi",
+  "repository": "https://github.com/Legend830/Toxic-Alexa_V2",
+  "logo": "https://telegra.ph/file/56c7adc490d2797f7efc6.jpg",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot"],
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/nodejs"
+
+        },
+
+        {
+
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          
+        },
+
+        {
+
+            "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+          
+        },
+
+        {
+
+            "url": "https://github.com/alard/heroku-buildpack-phantomjs-wget.git"
+
+        },
+
+        {
+
+            "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+
+        }
+
+    ]
+}
